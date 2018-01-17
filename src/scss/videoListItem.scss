@@ -1,0 +1,18 @@
+.videoList{
+	/*border:2px solid red;*/
+	list-style: none;
+}
+.videoListItem{
+	padding:1em;
+	color:white;
+	border-bottom: 1px dotted;
+	.media{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		&__thumbnail{
+			margin-right: 1em;
+			border: 1px solid ;
+		}
+	}
+}
